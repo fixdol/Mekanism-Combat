@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="mekanismcombat"
+version="1.0"
+displayName="Mekanism: Combat"
+authors="FixedDolphin927"
+description='''${mod_description}'''
+
+[[dependencies.mekanismcombat]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mekanismcombat]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
