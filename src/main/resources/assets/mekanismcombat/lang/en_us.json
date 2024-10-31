@@ -1,3 +1,8 @@
 {
-  "item.mekanismcombat.concrete_helmet": ""
+  "block.mekanismcombat.neutron_bomb": "Neutron Bomb",
+
+  "item.mekanismcombat.concrete_helmet": "Neutron Shielding Helmet",
+  "item.mekanismcombat.concrete_chestplate": "Neutron Shielding Chestplate",
+  "item.mekanismcombat.concrete_leggings": "Neutron Shielding Leggings",
+  "item.mekanismcombat.concrete_boots": "Neutron Shielding Boots"
 }
