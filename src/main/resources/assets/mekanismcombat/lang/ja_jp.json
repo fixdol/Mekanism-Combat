@@ -1,6 +1,8 @@
 {
   "block.mekanismcombat.neutron_bomb": "中性子爆弾",
 
+  "constants.mekanismcombat.mod_name": "Mekanism: Combat",
+
   "item.mekanismcombat.concrete_helmet": "中性子線遮蔽ヘルメット",
   "item.mekanismcombat.concrete_chestplate": "中性子線遮蔽チェストプレート",
   "item.mekanismcombat.concrete_leggings": "中性子線遮蔽レギンス",

@@ -1,0 +1,27 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "key":
+  {
+    "N":
+    {
+      "item":"mekanismscience:pellet_neutron_source"
+    },
+    "C":
+    {
+      "tag":"forge:circuits/elite"
+    },
+    "H":
+    {
+      "item":"mekanismscience:high_quality_concrete"
+    }
+  },"pattern":
+[
+  "HNH",
+  "NCN",
+  "HNH"
+],
+  "result":
+  {
+    "item":"mekanismcombat:neutron_bomb"
+  }
+}

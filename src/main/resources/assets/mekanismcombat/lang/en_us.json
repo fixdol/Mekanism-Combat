@@ -1,6 +1,8 @@
 {
   "block.mekanismcombat.neutron_bomb": "Neutron Bomb",
 
+  "constants.mekanismcombat.mod_name": "Mekanism: Combat",
+
   "item.mekanismcombat.concrete_helmet": "Neutron Shielding Helmet",
   "item.mekanismcombat.concrete_chestplate": "Neutron Shielding Chestplate",
   "item.mekanismcombat.concrete_leggings": "Neutron Shielding Leggings",

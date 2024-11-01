@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class MCEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MekanismCombat.MODID);
 
-    public static final RegistryObject<BlockEntityType<NeutronBombEntity>> NEUTRON_BOMB = BLOCK_ENTITIES.register("neutron_bomb",
+    public static final RegistryObject<BlockEntityType<NeutronBombEntity>> NEUTRON_BOMB = BLOCK_ENTITIES.register("neutron_bomb.json",
             () -> BlockEntityType.Builder.of(NeutronBombEntity::new, MCBlocks.NEUTRON_BOMB.getBlock()).build(null));
 }
 

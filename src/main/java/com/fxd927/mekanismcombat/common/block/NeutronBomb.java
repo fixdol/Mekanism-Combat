@@ -2,7 +2,6 @@ package com.fxd927.mekanismcombat.common.block;
 
 import com.fxd927.mekanismcombat.common.entity.NeutronBombEntity;
 import net.minecraft.core.BlockPos;
-import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.EntityBlock;
@@ -23,7 +22,7 @@ public class NeutronBomb extends Block implements EntityBlock {
         if (level.hasNeighborSignal(pos)) {
             BlockEntity be = level.getBlockEntity(pos);
             if (be instanceof NeutronBombEntity) {
-                ((NeutronBombEntity) be).activate(); // 爆弾を起動
+                ((NeutronBombEntity) be).activate();
             }
         }
     }
@@ -36,10 +35,9 @@ public class NeutronBomb extends Block implements EntityBlock {
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
-        // サーバーサイドでのみティックを行う
         return level.isClientSide ? null : (lvl, pos, st, be) -> {
             if (be instanceof NeutronBombEntity bombEntity) {
-                bombEntity.tick(); // BlockEntity の tick メソッドを呼び出す
+                bombEntity.tick();
             }
         };
     }
